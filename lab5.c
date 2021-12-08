@@ -1,3 +1,20 @@
+#include <linux/init.h>
+#include <linux/module.h>
+#include <linux/printk.h>
+#include <linux/ktime.h>
+#include <linux/slab.h>
+
+struct head_list {
+struct head_list *next;
+ktime_t time;
+};
+
+MODULE_AUTHOR("Saiko Sabrina IV-91");
+MODULE_DESCRIPTION("Lab5");
+MODULE_LICENSE("Dual BSD/GPL");
+
+static struct head_list *head;
+
 static int amount = 1;
 module_param(amount, uint, 0444);
 MODULE_PARM_DESC(amount, "Amount of outputting Hello worlds");
