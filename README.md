@@ -17,9 +17,17 @@
  
 ![изображение](https://user-images.githubusercontent.com/62243357/145268403-e4956e96-57d0-453d-8e81-160c404252d0.png)
 
-## 3. Параметр знаходиться між 5 і 10:
+## 3. Параметр 0:
+
+![изображение](https://user-images.githubusercontent.com/62243357/145269078-0e69b79b-2927-4b14-8b4a-15b3780ad91f.png)
+
+
+## 4. Параметр знаходиться між 5 і 10:
 
 ![изображение](https://user-images.githubusercontent.com/62243357/145268680-1b0cbf60-94d9-4f4f-8e42-84058428c844.png)
+![изображение](https://user-images.githubusercontent.com/62243357/145269267-197c4510-8570-4bff-b30a-b1ff80fc145e.png)
 
-## 4. Параметр більше 10:
 
+## 5. Параметр більше 10:
+
+![изображение](https://user-images.githubusercontent.com/62243357/145269210-b6227e64-6a27-4482-a13d-6176ed0a4aae.png)
