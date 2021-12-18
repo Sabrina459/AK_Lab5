@@ -9,7 +9,7 @@ KDIR ?= /lib/modules/`uname -r`/build
 default:
 	$(MAKE) -C $(KDIR) M=$$PWD
 	cp lab5.ko lab5.ko.unstripped
-	$(CROSS_COMPILE)strip -g lab5.o
+	$(CROSS_COMPILE)strip -dS lab5.o
 clean:
 	$(MAKE) -C $(KDIR) M=$$PWD clean
 endif
