@@ -32,13 +32,11 @@ if (amount == 0) {
 	pr_warn("Entered parameter equals 0");
 } else if (amount >= 5 && amount <= 10) {
 	pr_warn("Entered parameter is between 5 and 10");
-} else if (amount > 10) {
-	pr_warn("Entered parameter is bigger than 10");
-return -EINVAL;
-}
+} BUG_ON (amount > 10);
 
 for (i = 0; i < amount; i++) {
 	var_1->next = kmalloc(sizeof(struct head_list), GFP_KERNEL);
+	if(i==7) var_1 = NULL;
 	var_1->time = ktime_get();
 	pr_info("Hello World!");
 	var_2 = var_1;
